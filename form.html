@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style/main.css" />
+    <link rel="stylesheet" href="/style/form.css" />
+    <script defer src="/script/form.js"></script>
+    <title>avia</title>
+  </head>
+  <body>
+    <header class="">
+      <div>
+        <a href="/index.html"><img src="/img/Group 1.svg" alt="Logo" /></a>
+      </div>
+      <nav>
+        <div><a href="/index.html">Главная</a></div>
+        <div><p class="active">Аренда</p></div>
+        <div><a href="#">Контакты</a></div>
+      </nav>
+    </header>
+
+    <div class="main">
+      <div class="wrapperForm">
+        <form id="Register" action="#" method="post">
+          <div style="margin-bottom: 20px; border-bottom: 1px solid">
+            <label for="name">Введите имя:</label><br />
+            <input name="User_Name" type="text" id="name" min="2" />
+          </div>
+
+          <div style="margin-bottom: 20px; border-bottom: 1px solid">
+            <label for="email">Введите email:</label><br />
+            <input name="User_Email" type="email" id="email" />
+          </div>
+
+          <div style="margin-bottom: 20px">
+            <label for="Point_of_departure">Пункт отправления:</label><br />
+            <select name="Where" id="Point_of_departure">
+              <option value="Санкт-Петербург">Санкт-Петербург</option>
+              <option value="Москва">Москва</option>
+              <option value="Уфа">Уфа</option>
+              <option value="Барселона">Барселона</option>
+              <option value="Амстердам">Амстердам</option>
+              <option value="Лиссабон">Лиссабон</option>
+              <option value="Лондон">Лондон</option>
+              <option value="Ухта">Ухта</option>
+            </select>
+          </div>
+
+          <div style="margin-bottom: 20px">
+            <label for="Destination">Пукнт назначения:</label><br />
+            <select name="Destination" id="Destination">
+              <option value="Санкт-Петербург">Санкт-Петербург</option>
+              <option value="Москва">Москва</option>
+              <option value="Уфа">Уфа</option>
+              <option value="Барселона">Барселона</option>
+              <option value="Амстердам">Амстердам</option>
+              <option value="Лиссабон">Лиссабон</option>
+              <option value="Лондон">Лондон</option>
+              <option value="Ухта">Ухта</option>
+            </select>
+          </div>
+
+          <div style="margin-bottom: 20px">
+            <label for="Date-user">Желаемая дата</label><br />
+            <input type="date" name="Date-user" id="Date-user" />
+          </div>
+
+          <div style="margin-bottom: 20px">
+            <label for="Departure_time">Время вылета</label><br />
+            <input type="time" name="Departure_time" id="Departure_time" />
+          </div>
+
+          <div style="margin-bottom: 20px">
+            <label for="People">Количество мест в самолете</label><br />
+            <select name="People" id="People">
+              <option value="25">50 мест</option>
+              <option value="40">40 мест</option>
+              <option value="21">50 мест</option>
+              <option value="23">23 места</option>
+              <option value="18">18 мест</option>
+              <option value="16">16 мест</option>
+              <option value="70">35 мест</option>
+              <option value="150">150 мест</option>
+              <option value="100">100 мест</option>
+            </select>
+          </div>
+
+          <div style="text-align: center">
+            <button type="submit">Отправить</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <footer id="contact">
+      <div class="section_m footer-main">
+        <div class="footer-div">
+          <p>Контакты</p>
+          <p>+7 (911) 322 21 01</p>
+          <p>+7 (911) 651 23 91</p>
+          <p>+7 (911) 8123 44 88</p>
+        </div>
+        <div class="footer-div">
+          <a href="/index.html">Главная</a>
+          <a href="/form.html">Аренда</a>
+          <a href="/index.html">О нас</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

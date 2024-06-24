@@ -1,0 +1,51 @@
+.main {
+  display: flex;
+  justify-content: center;
+}
+.wrapperForm {
+  border: 1px solid gray;
+  border-radius: 8px;
+  width: 400px;
+  height: auto;
+  box-sizing: border-box;
+  padding-block: 15px;
+  padding-inline: 10px;
+  margin-bottom: 100px;
+}
+form label {
+  font-size: 20px;
+}
+
+form input {
+  outline: none;
+  border: none;
+  font-size: 17px;
+  width: 100%;
+}
+form button {
+  border: none;
+  background-color: rgba(38, 125, 83, 0.554);
+  border: 1px solid rgba(255, 255, 255, 0.554);
+  color: #fff;
+  padding: 10px 25px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+form button:hover {
+  border: 1px solid rgba(28, 93, 62, 0.554);
+  color: rgba(38, 125, 83, 0.71);
+  background-color: transparent;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:active,
+input:-webkit-autofill:focus {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+  -webkit-box-shadow: 0 0 0 1000px white inset !important;
+  -webkit-text-fill-color: #000000 !important;
+}

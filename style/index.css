@@ -1,0 +1,77 @@
+
+.discription_main{
+    font-size: 20px;
+}
+.title {
+  font-size: 60px;
+  font-weight: 500;
+  color: rgb(88, 170, 241);
+}
+
+.discription_main {
+  margin-bottom: 50px;
+}
+
+section{
+    margin-bottom: 50px;
+}
+.catalog-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(2, 500px);
+  gap: 40px;
+}
+.card {
+  border: 1px solid rgba(29, 145, 253, 0.644);
+  border-radius: 15px;
+  padding: 15px;
+  background: linear-gradient(
+    135deg,
+    rgba(52, 103, 116, 1) 0%,
+    rgba(74, 115, 171, 1) 97%
+  );
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text-card {
+  color: #fff;
+}
+.card-title {
+  margin-bottom: 15px;
+}
+
+.img-card {
+  border-radius: 10px;
+  margin-bottom: 30px;
+  height: 200px;
+}
+
+.item-price {
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.item-disc {
+  margin-bottom: 20px;
+}
+
+.btn-card {
+  border: none;
+  border-radius: 10px;
+  padding-inline: 20px;
+  padding-block: 10px;
+  font-weight: 500;
+  border: 1px solid transparent;
+  transition: .3s;
+}
+
+.btn-card:hover{
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    cursor: pointer;
+    transition: .3s;
+}
+
